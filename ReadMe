@@ -1,0 +1,26 @@
+Home directory has Home component which will use Card component in 
+reusedComponents directory
+
+ <Route path="/" element={<Home />} />
+          <Route
+            path="/userpage/profile/:userId"
+            element={<UserPageProfile />}
+          />
+          <Route path="/userpage/posts/:userId" element={<UserPagePosts />} />
+          <Route
+            path="/userpage/gallery/:userId"
+            element={<UserPageGallery />}
+          />
+          <Route path="/userpage/todo/:userId" element={<UserPageToDo />} />
+
+when clicking Home's user it direct to profile Details page in userPage director
+each component in userPage are all availble in userPage directory
+reusedComponents are components that are used multiple time for several routes
+to indiacte reused component each file name starts with capital letter
+
+userLayout:consits of layout of userPage
+UserPageProfile,UserPageGallery,UserPagePosts,UserPageToDo are the different route in userpage it will change when user clicks menu button
+userChat uses Card in reusedComponents
+sideBar --> menu bar in the sideBar
+modalcard --> open when user clicks current profile in upright in userPageHeader
+profileDetails--> has the details of current user in center of userPage

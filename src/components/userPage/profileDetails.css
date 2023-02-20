@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+.profileDetails {
+  font-family: "Roboto";
+  font-size: 18px;
+  text-align: justify;
+}
+.header {
+  font-size: 25px;
+  font-weight: bold;
+}
+#verticalLine {
+  display: none;
+}
+@media only screen and (min-width: 996px) {
+  #verticalLine {
+    borderleft: 2px solid rgb(219, 219, 219);
+    height: 500px;
+  }
+}

@@ -1,0 +1,29 @@
+.sideBar {
+  width: 17vw;
+  height: 85vh;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(61, 87, 200),
+    rgb(96, 58, 200)
+  );
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 5px;
+}
+.button {
+  border: 0;
+  background: transparent;
+  font-family: "Roboto";
+  font-size: 15px;
+  color: rgb(162, 165, 227);
+  display: flex;
+  cursor: pointer;
+}
+.link {
+  text-decoration: none;
+}
+.active {
+  color: rgb(255, 255, 255);
+}

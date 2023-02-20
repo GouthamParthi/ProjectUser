@@ -1,0 +1,15 @@
+
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("https://equrra.com/wp-content/uploads/2020/04/10.png");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+body {
+  margin: 0;
+}
